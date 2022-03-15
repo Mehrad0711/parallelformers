@@ -93,6 +93,7 @@ if __name__ == "__main__":
             num_gpus=args.gpu_to + 1,
             fp16=args.fp16,
             verbose="simple",
+            daemon=False
         )
     else:
         if args.fp16:
